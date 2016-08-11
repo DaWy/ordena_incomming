@@ -14,11 +14,11 @@ video_ext = ['.mov', '.mpg', '.mp4', ]
 
 Tenim 2 modes diferents:
 
-1. convert (Convertir): Fa un recorregut per l'estructura nomes convertint els fitxers. La conversió implica reduir la seva mida. En el cas de les imatges, fa una proporció basada en una mida base o "basewith" que es pot modificar:
+* convert (Convertir): Fa un recorregut per l'estructura nomes convertint els fitxers. La conversió implica reduir la seva mida. En el cas de les imatges, fa una proporció basada en una mida base o "basewith" que es pot modificar:
 
 ```	basewidth = 1600```
 
-2. move (Moure): Fa el mateix recorregut per el directori incoming pero nomes mou els arxius a una ubicació. La ubicació base es pasa per parametre.
+* move (Moure): Fa el mateix recorregut per el directori incoming pero nomes mou els arxius a una ubicació. La ubicació base es pasa per parametre.
 
 L'Script buscara si hi ha un arxiu 'content.txt' dins de la carpeta. Això es fa per facilitar la feina de moure els fitxers a la seva carpeta corresponent.
 Es necessari, ja que sino els arxius van a petar a una carpeta dins del path dels arxius anomenada _NO_CONTENT. 
